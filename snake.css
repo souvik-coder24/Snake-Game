@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    background-image: url('./img/peakpx.jpg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+h1{
+    background-color: transparent;
+}
+
+#board{
+    background: linear-gradient(120deg, skyblue, green);
+    width: 105vmin;
+    height: 92vmin;
+    margin-left: 20px;
+    border: 6px solid white;
+    border-radius: 6px;
+    box-shadow: 10px 10px 30px black;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+.head{
+    background-color: red;
+}
+
+.food{
+    background-color: purple;
+}
